@@ -1,19 +1,14 @@
 #include <stdio.h>
 /**
- *main - Entry point
- * Return: Always 0 (Success)
+ * main - prints the size of various types
+ * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
-	{int the_int;
-	float the_float;
-	char the_char;
-	long long the_long_long;
-	long the_long;
-	printf("Size of a char: %zu byte(s)\n", sizeof(the_char));
-	printf("Size of an int: %zu byte(s)\n", sizeof(the_int));
-	printf("Size of a long int: %zu byte(s)\n", sizeof(the_long));
-	printf("Size of a long long int: %zu byte(s)\n", sizeof(the_long_long));
-	printf("Size of a float: %zu byte(s)\n", sizeof(the_float));
-	return (0);
+		printf("Size of a char: %d byte(s)\n", sizeof(char));
+			printf("Size of an int: %d byte(s)\n", sizeof(int));
+				printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+					printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+						printf("Size of a float: %d byte(s)\n", sizeof(float));
+						return (0);
 }
