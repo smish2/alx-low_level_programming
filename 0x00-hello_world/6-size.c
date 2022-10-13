@@ -5,7 +5,6 @@
  */
 int main(void)
 {
-	int the_int;
 	float the_float;
 	char the_char;
 	long long the_long_long;
