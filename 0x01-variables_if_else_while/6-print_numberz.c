@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 /**
- *  * main - Entry Point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Entry Point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-		int a = 0;
+	int a = 0;
 
-			do {
-						putchar(a + '0');
-								a++;
-									} while (a < 10);
+	do {
+		putchar(a + '0');
+		a++;
+	} while (a < 10);
 
-				putchar('\n');
+	putchar('\n');
 
-				return (0);
+	return (0);
 }
